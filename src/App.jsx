@@ -171,8 +171,8 @@ function Header() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 flex flex-col ${isScrolled
-          ? 'bg-ink/95 backdrop-blur-xl border-b border-white/10 shadow-soft'
-          : 'bg-transparent border-transparent'
+        ? 'bg-ink/95 backdrop-blur-xl border-b border-white/10 shadow-soft'
+        : 'bg-transparent border-transparent'
         }`}
     >
       <div className="bg-sun text-ink py-1.5 px-4 flex justify-center items-center gap-2 text-[10px] sm:text-xs font-black uppercase tracking-wide">
@@ -186,7 +186,7 @@ function Header() {
           LOVE <span className="text-sun ml-1.5">CUP</span>
         </a>
         <a
-          href="https://pay.lowify.com.br/checkout?product_id=Ts6yg0"
+          href="https://pay.wiapy.com/PTQFM4wlmA"
           className="rounded-xl bg-sun px-4 py-3 text-xs font-black uppercase tracking-wide text-ink shadow-glow transition hover:-translate-y-0.5 sm:px-5"
         >
           Quero agora
@@ -204,7 +204,7 @@ function CtaButton({ children, variant = 'primary', className = '' }) {
 
   return (
     <a
-      href="https://pay.lowify.com.br/checkout?product_id=Ts6yg0"
+      href="https://pay.wiapy.com/PTQFM4wlmA"
       className={`premium-cta inline-flex min-h-14 items-center justify-center gap-2 rounded-xl px-6 text-center text-sm font-black uppercase tracking-wide transition ${styles} ${className}`}
     >
       {children}
@@ -836,11 +836,10 @@ function App() {
 
       {/* Social Proof Popup */}
       <div
-        className={`fixed left-4 lg:left-6 z-[60] flex items-center gap-3 rounded-2xl border border-rose-100 bg-white/95 p-3.5 shadow-[0_10px_30px_rgba(8,15,38,0.12)] backdrop-blur-md transition-all duration-500 max-w-[90%] sm:max-w-sm ${
-          showPurchase && purchase
+        className={`fixed left-4 lg:left-6 z-[60] flex items-center gap-3 rounded-2xl border border-rose-100 bg-white/95 p-3.5 shadow-[0_10px_30px_rgba(8,15,38,0.12)] backdrop-blur-md transition-all duration-500 max-w-[90%] sm:max-w-sm ${showPurchase && purchase
             ? 'bottom-24 lg:bottom-6 translate-y-0 opacity-100'
             : 'bottom-20 lg:bottom-0 translate-y-4 opacity-0 pointer-events-none'
-        }`}
+          }`}
       >
         <div className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-love text-white shadow-md">
           <ShoppingBag className="h-5 w-5" />
