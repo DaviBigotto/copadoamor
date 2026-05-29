@@ -828,7 +828,7 @@ function App() {
             <p className="text-[10px] font-black uppercase text-slate-400 line-through decoration-love decoration-2">De R$47,00</p>
             <p className="text-xl font-black text-love">R$11,90</p>
           </div>
-          <a href="https://pay.lowify.com.br/checkout?product_id=Ts6yg0" className="flex min-h-14 flex-1 items-center justify-center gap-2 rounded-xl bg-sun px-4 text-center text-xs font-black uppercase tracking-wide text-ink shadow-glow">
+          <a href="https://pay.wiapy.com/PTQFM4wlmA" className="flex min-h-14 flex-1 items-center justify-center gap-2 rounded-xl bg-sun px-4 text-center text-xs font-black uppercase tracking-wide text-ink shadow-glow">
             <ShoppingBag className="h-4 w-4" /> Quero meu Love Cup
           </a>
         </div>
